@@ -1,0 +1,17 @@
+de/itm/stage/abilityprofiling/DB/Ability.class
+de/itm/stage/abilityprofiling/DB/ResponseMessages.class
+de/itm/stage/abilityprofiling/DB/MySQLiteHelper.class
+de/itm/stage/abilityprofiling/DB/APParameters.class
+de/itm/stage/abilityprofiling/icf/ICFClassifications$ICFTypes.class
+de/itm/stage/abilityprofiling/DB/DataBaseRequests.class
+de/itm/stage/abilityprofiling/icf/ICFRating.class
+de/itm/stage/abilityprofiling/icf/ICFClassifications.class
+de/itm/stage/abilityprofiling/DB/Permission$PermissionStates.class
+de/itm/stage/abilityprofiling/DB/Profile.class
+de/itm/stage/abilityprofiling/DB/Permission.class
+de/itm/stage/abilityprofiling/icf/ICFLITE.class
+de/itm/stage/abilityprofiling/DB/DataSource.class
+org/ambientdynamix/contextplugins/APMessageInfo.class
+de/itm/stage/abilityprofiling/DB/Validator.class
+org/ambientdynamix/contextplugins/APMessageInfo$1.class
+org/ambientdynamix/contextplugins/IAPMessageInfo.class

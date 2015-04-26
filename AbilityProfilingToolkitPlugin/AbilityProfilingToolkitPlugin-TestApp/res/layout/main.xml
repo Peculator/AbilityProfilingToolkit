@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TextView
+        android:id="@+id/dynamix_status"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dynamix_status"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=" " />
+
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/showICFbtn"
+        android:text="@string/icf_codes"
+        android:layout_marginBottom="10dp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/showProfilebtn"
+        android:text="@string/show_profiles"
+        android:layout_marginBottom="10dp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/showPermissionsbtn"
+        android:text="@string/show_permissions"
+        android:layout_marginBottom="10dp" />
+
+
+    <TextView
+        android:id="@+id/messagesAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textSize="20dp"
+        android:textColor="#ff00af00" />
+
+    <TextView
+        android:id="@+id/messagesRemove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textSize="20dp"
+        android:textColor="#ffaf0000" />
+
+    <TextView
+        android:id="@+id/messagesChange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textSize="20dp"
+        android:textColor="#ffafa200" />
+</LinearLayout>

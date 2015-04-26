@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1424717521460
+Build-Jdk: 1.7.0_75
+Built-By: sven
+Bundle-ClassPath: .
+Bundle-Description: poc-Core
+Bundle-ManifestVersion: 2
+Bundle-Name: poc-Core
+Bundle-SymbolicName: org.ambientdynamix.contextplugins
+Bundle-Vendor: Ambientdynamix
+Bundle-Version: 1.0.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.ambientdynamix.contextplugins;uses:="org.ambientdyna
+ mix.api.contextplugin,org.ambientdynamix.api.application";version="1.0.
+ 0"
+Import-Package: org.ambientdynamix.api.application,org.ambientdynamix.ap
+ i.contextplugin,org.ambientdynamix.api.contextplugin.security
+Originally-Created-By: Apache Maven Bundle Plugin
+Tool: Bnd-1.50.0

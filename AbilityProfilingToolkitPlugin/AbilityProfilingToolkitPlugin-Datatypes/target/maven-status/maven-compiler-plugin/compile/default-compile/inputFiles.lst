@@ -1,0 +1,16 @@
+/home/sven/Studium/abilityprofilingtoolkit/Development/11/AbilityProfilingToolkitPlugin/AbilityProfilingToolkitPlugin-Datatypes/src/main/java/de/itm/stage/abilityprofiling/DB/Validator.java
+/home/sven/Studium/abilityprofilingtoolkit/Development/11/AbilityProfilingToolkitPlugin/AbilityProfilingToolkitPlugin-Datatypes/src/main/java/de/itm/stage/abilityprofiling/DB/Ability.java
+/home/sven/Studium/abilityprofilingtoolkit/Development/11/AbilityProfilingToolkitPlugin/AbilityProfilingToolkitPlugin-Datatypes/src/main/java/de/itm/stage/abilityprofiling/DB/Profile.java
+/home/sven/Studium/abilityprofilingtoolkit/Development/11/AbilityProfilingToolkitPlugin/AbilityProfilingToolkitPlugin-Datatypes/src/main/java/org/ambientdynamix/contextplugins/IAPMessageInfo.java
+/home/sven/Studium/abilityprofilingtoolkit/Development/11/AbilityProfilingToolkitPlugin/AbilityProfilingToolkitPlugin-Datatypes/src/main/java/de/itm/stage/abilityprofiling/icf/ICFLITE.java
+/home/sven/Studium/abilityprofilingtoolkit/Development/11/AbilityProfilingToolkitPlugin/AbilityProfilingToolkitPlugin-Datatypes/src/main/java/de/itm/stage/abilityprofiling/DB/ResponseMessages.java
+/home/sven/Studium/abilityprofilingtoolkit/Development/11/AbilityProfilingToolkitPlugin/AbilityProfilingToolkitPlugin-Datatypes/src/main/java/org/ambientdynamix/contextplugins/APMessageInfo.java
+/home/sven/Studium/abilityprofilingtoolkit/Development/11/AbilityProfilingToolkitPlugin/AbilityProfilingToolkitPlugin-Datatypes/src/main/java/de/itm/stage/abilityprofiling/DB/ResponseType.java
+/home/sven/Studium/abilityprofilingtoolkit/Development/11/AbilityProfilingToolkitPlugin/AbilityProfilingToolkitPlugin-Datatypes/src/main/java/de/itm/stage/abilityprofiling/DB/DataSource.java
+/home/sven/Studium/abilityprofilingtoolkit/Development/11/AbilityProfilingToolkitPlugin/AbilityProfilingToolkitPlugin-Datatypes/src/main/java/de/itm/stage/abilityprofiling/icf/ICFClassifications.java
+/home/sven/Studium/abilityprofilingtoolkit/Development/11/AbilityProfilingToolkitPlugin/AbilityProfilingToolkitPlugin-Datatypes/src/main/java/de/itm/stage/abilityprofiling/DB/APResponse.java
+/home/sven/Studium/abilityprofilingtoolkit/Development/11/AbilityProfilingToolkitPlugin/AbilityProfilingToolkitPlugin-Datatypes/src/main/java/de/itm/stage/abilityprofiling/DB/DataBaseRequests.java
+/home/sven/Studium/abilityprofilingtoolkit/Development/11/AbilityProfilingToolkitPlugin/AbilityProfilingToolkitPlugin-Datatypes/src/main/java/de/itm/stage/abilityprofiling/icf/ICFRating.java
+/home/sven/Studium/abilityprofilingtoolkit/Development/11/AbilityProfilingToolkitPlugin/AbilityProfilingToolkitPlugin-Datatypes/src/main/java/de/itm/stage/abilityprofiling/DB/Permission.java
+/home/sven/Studium/abilityprofilingtoolkit/Development/11/AbilityProfilingToolkitPlugin/AbilityProfilingToolkitPlugin-Datatypes/src/main/java/de/itm/stage/abilityprofiling/DB/APParameters.java
+/home/sven/Studium/abilityprofilingtoolkit/Development/11/AbilityProfilingToolkitPlugin/AbilityProfilingToolkitPlugin-Datatypes/src/main/java/de/itm/stage/abilityprofiling/DB/MySQLiteHelper.java

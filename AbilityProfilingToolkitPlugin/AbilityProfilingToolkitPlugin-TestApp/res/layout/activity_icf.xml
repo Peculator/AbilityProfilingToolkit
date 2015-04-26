@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/icfSearchView"
+        android:weightSum="3">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="search here"
+            android:id="@+id/searchField"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:maxLines="1"
+            android:layout_weight="2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/numResults"
+            android:gravity="right"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:id="@+id/seperator"
+        android:layout_below="@+id/icfSearchView" />
+
+
+    <ListView
+        android:layout_below="@+id/seperator"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/icfListView">
+
+    </ListView>
+
+</LinearLayout>

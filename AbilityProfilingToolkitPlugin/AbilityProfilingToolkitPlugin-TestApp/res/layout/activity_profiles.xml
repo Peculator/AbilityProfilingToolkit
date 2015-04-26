@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="5"
+        android:gravity="center|left">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="3"
+            android:gravity="left"
+            android:layout_weight="4">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="ICF code here"
+                android:id="@+id/insertFieldCode"
+                android:gravity="left"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:maxLines="1"
+                android:maxLength="7"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/selectedICFCode"
+                android:layout_weight="1"
+                android:maxLines="3" />
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/submitButton"
+            android:text="Submit"
+            android:layout_weight="1"
+            android:gravity="center|center_horizontal" />
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_below="@+id/llprofile" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="2"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="10sp"
+                android:id="@+id/titleA" />
+
+
+            <Spinner
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:hint="e.g. b 2300"
+                android:id="@+id/insertFieldRatingA"
+                android:minWidth="50dp"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="2"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="10sp"
+                android:id="@+id/titleB" />
+
+            <Spinner
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:hint="e.g. b 2300"
+                android:id="@+id/insertFieldRatingB"
+                android:minWidth="50dp"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="2"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="10sp"
+                android:id="@+id/titleC" />
+
+            <Spinner
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:hint="e.g. b 2300"
+                android:id="@+id/insertFieldRatingC"
+                android:minWidth="50dp"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="2"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="10sp"
+                android:id="@+id/titleD" />
+
+            <Spinner
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:hint="e.g. b 2300"
+                android:id="@+id/insertFieldRatingD"
+                android:minWidth="50dp"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:id="@+id/seperator"
+        android:layout_below="@+id/llprofile" />
+
+
+    <ListView
+        android:layout_below="@+id/seperator"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/profileListView">
+
+    </ListView>
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contextPlugins version="1.0.0" xmlns:android="http://schemas.android.com/apk/res/android">
+	<contextPlugin
+		metadataVersion="1.0.0" 
+		repoType="simple-file"
+		id="org.ambientdynamix.contextplugins"
+		pluginVersion="1.0.0"
+		pluginType="AUTO"
+		provider="Ambient Dynamix"       
+		platform="android" 
+		minPlatformVersion="2.1" 
+		minFrameworkVersion="2.1.0"
+		requiresConfiguration="false"
+		hasConfigurationView="true"
+		runtimeFactoryClass="org.ambientdynamix.contextplugins.PluginFactory"
+        backgroundService="false">
+		<name>poc</name>
+        <description>Automatically generated description, please change</description>
+		<supportedContextTypes>
+            <contextType id="org.ambientdynamix.contextplugins.mybatterylevel" name="BatteryLevel">Change this sample description</contextType>
+		</supportedContextTypes>		
+		<featureDependencies/>			
+		<permissions>
+		    <permission>Context.ACTIVITY_SERVICE</permission>
+            <permission>Permissions.ACCESS_FULL_CONTEXT</permission>
+            <permission>permissions.MANAGE_BROADCAST_RECEIVERS</permission>
+		</permissions>
+		<installUrl>dynamix/poc-Core-1.0.0.jar</installUrl>
+		<updateUrl></updateUrl>
+		<updateMessage priority="OPTIONAL"></updateMessage>
+	</contextPlugin>
+</contextPlugins>

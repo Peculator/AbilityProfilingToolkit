@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AbilityProfilingToolkitPlugin.iml" filepath="$PROJECT_DIR$/AbilityProfilingToolkitPlugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AbilityProfilingToolkitPlugin-Core/AbilityProfilingToolkitPlugin-Core.iml" filepath="$PROJECT_DIR$/AbilityProfilingToolkitPlugin-Core/AbilityProfilingToolkitPlugin-Core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AbilityProfilingToolkitPlugin-Datatypes/AbilityProfilingToolkitPlugin-Datatypes.iml" filepath="$PROJECT_DIR$/AbilityProfilingToolkitPlugin-Datatypes/AbilityProfilingToolkitPlugin-Datatypes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AbilityProfilingToolkitPlugin-TestApp/AbilityProfilingToolkitPlugin-TestApp.iml" filepath="$PROJECT_DIR$/AbilityProfilingToolkitPlugin-TestApp/AbilityProfilingToolkitPlugin-TestApp.iml" />
+    </modules>
+  </component>
+</project>
+
